@@ -1,0 +1,14 @@
+CREATE TABLE RecipeDetailsTable (
+    id INTEGER NOT NULL PRIMARY KEY,
+    image TEXT,
+    imageType TEXT,
+    summary TEXT,
+    title TEXT
+);
+
+selectAllRecipes:
+SELECT * FROM RecipeDetailsTable;
+
+insertRecipeDetails:
+INSERT OR IGNORE INTO RecipeDetailsTable(id, image, imageType,summary,title)
+VALUES (?,?,?, ?,?);
