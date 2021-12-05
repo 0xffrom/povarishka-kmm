@@ -1,0 +1,4 @@
+- name: Detekt all
+  # You may pin to the exact commit or the version.
+  # uses: natiginfo/action-detekt-all@388e47842698611213dfd31aa777fc4f85b5132b
+  uses: natiginfo/action-detekt-all@1.19.0
